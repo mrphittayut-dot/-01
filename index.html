@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>เข้าสู่ระบบ / ลงทะเบียน</h1>
+            <select name="เลือกประเภท">
+                <option value="1">ผู้ประกอบการ</option>
+                <option value="2">ผู้สมัครงาน</option>  
+            </select>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="username">เลขประจำตัวประชาชน</label>
+                    <input type="text" id="username" name="username" placeholder="เลขประจำตัว" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">รหัสผ่าน</label>
+                    <input type="password" id="password" name="password" placeholder="รหัสผ่าน" required>
+                </div>
+                <button type="submit" class="submit-btn">เข้าสู่ระบบ</button>
+                <p class="alternative">
+                    หากท่านยังไม่มีรหัสผู้ใช้งาน
+                    <a href="form.html">สมัครสมาชิก</a>
+
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
